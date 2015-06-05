@@ -102,15 +102,15 @@ Optional keyword arguments:<br/>
     =========   =======================================================<br/>
     Keyword     Description<br/>
     =========   =======================================================<br/>
-    Inputs:
-    f275:        1-D array of magnitudes
-    f336:        1-D array of magnitudes
-    f438:        1-D array of magnitudes
-    f606:        1-D array of magnitudes
-    f814:        1-D array of magnitudes
-    modelA:      5-D array, each of five dimensions defining an isochrone in one of the five filters
-    modelB:      same as modelA for a second model (can set modelB=modelA to plot only one population if desired)
-    selectphot:  a 5-D array formatted as [sub275,subf336,subf438,subf606,subf814]; if set to not 'None', this option will overplot the subsample of photometry.
+    Inputs:<br/>
+    f275:        1-D array of magnitudes<br/>
+    f336:        1-D array of magnitudes<br/>
+    f438:        1-D array of magnitudes<br/>
+    f606:        1-D array of magnitudes<br/>
+    f814:        1-D array of magnitudes<br/>
+    modelA:      5-D array, each of five dimensions defining an isochrone in one of the five filters<br/>
+    modelB:      same as modelA for a second model (can set modelB=modelA to plot only one population if desired)<br/>
+    selectphot:  a 5-D array formatted as [sub275,subf336,subf438,subf606,subf814]; if set to not 'None', this option will overplot the subsample of photometry.<br/>
     
 
 Additional options for plotting colors, sizes, formats, etc. can be found in pyplot.plot() and related descriptions. Colors may take any standard HTML string descriptor (re: http://www.w3schools.com/html/html_colornames.asp).
