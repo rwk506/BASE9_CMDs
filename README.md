@@ -111,12 +111,12 @@ Optional keyword arguments:<br/>
 &nbsp; &nbsp; &nbsp;modelA:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;5-D array, each of five dimensions defining an isochrone in one of the five filters<br/>
 &nbsp; &nbsp; &nbsp;modelB:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;same as modelA for a second model (can set modelB=modelA to plot only one population if desired)<br/>
 &nbsp; &nbsp; &nbsp;selectphot:  a 5-D array formatted as [sub275, subf336, subf438, subf606, subf814]; if set to not 'None' (the default), this option will overplot the subsample of photometry.<br/>
-&nbsp; &nbsp; &nbsp;ls1:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;The linestyle and color of the first isochrone model (default is  a solid cyan line)
-&nbsp; &nbsp; &nbsp;ls2:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;The linestyle and color of the second isochrone model (default is a solid magenta line)
-&nbsp; &nbsp; &nbsp;mark1:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;The marker type of the entire sample of stars (default is gray points)
-&nbsp; &nbsp; &nbsp;mark2:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;The marker type for the subsample of stars (default is  black points)
-&nbsp; &nbsp; &nbsp;ms1:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;The marker size in points of the entire sample of stars (default is relatively smaller)
-&nbsp; &nbsp; &nbsp;ms2:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;The marker size in points of the subsample of stars (default is relatively larger)
+&nbsp; &nbsp; &nbsp;ls1:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;The linestyle and color of the first isochrone model (default is  a solid cyan line)<br/>
+&nbsp; &nbsp; &nbsp;ls2:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;The linestyle and color of the second isochrone model (default is a solid magenta line)<br/>
+&nbsp; &nbsp; &nbsp;mark1:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;The marker type of the entire sample of stars (default is gray points)<br/>
+&nbsp; &nbsp; &nbsp;mark2:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;The marker type for the subsample of stars (default is  black points)<br/>
+&nbsp; &nbsp; &nbsp;ms1:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;The marker size in points of the entire sample of stars (default is relatively smaller)<br/>
+&nbsp; &nbsp; &nbsp;ms2:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;The marker size in points of the subsample of stars (default is relatively larger)<br/>
 
     
 
