@@ -102,12 +102,12 @@ Optional keyword arguments:<br/>
 &nbsp; &nbsp; &nbsp;=========&nbsp; &nbsp; &nbsp;=======================================================<br/>
 &nbsp; &nbsp; &nbsp;Keyword&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Description<br/>
 &nbsp; &nbsp; &nbsp;=========&nbsp; &nbsp; &nbsp;=======================================================<br/>
-&nbsp; &nbsp; &nbsp;Inputs:<br/>
-&nbsp; &nbsp; &nbsp;f275:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;1-D array of magnitudes<br/>
-&nbsp; &nbsp; &nbsp;f336:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;1-D array of magnitudes<br/>
-&nbsp; &nbsp; &nbsp;f438:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;1-D array of magnitudes<br/>
-&nbsp; &nbsp; &nbsp;f606:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;1-D array of magnitudes<br/>
-&nbsp; &nbsp; &nbsp;f814:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;1-D array of magnitudes<br/>
+&nbsp; &nbsp; &nbsp;*Inputs:*<br/>
+&nbsp; &nbsp; &nbsp;f275:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;1-D array of magnitudes<br/>
+&nbsp; &nbsp; &nbsp;f336:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;1-D array of magnitudes<br/>
+&nbsp; &nbsp; &nbsp;f438:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;1-D array of magnitudes<br/>
+&nbsp; &nbsp; &nbsp;f606:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;1-D array of magnitudes<br/>
+&nbsp; &nbsp; &nbsp;f814:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;1-D array of magnitudes<br/>
 &nbsp; &nbsp; &nbsp;modelA:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;5-D array, each of five dimensions defining an isochrone in one of the five filters<br/>
 &nbsp; &nbsp; &nbsp;modelB:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;same as modelA for a second model (can set modelB=modelA to plot only one population if desired)<br/>
 &nbsp; &nbsp; &nbsp;selectphot:  a 5-D array formatted as [sub275,subf336,subf438,subf606,subf814]; if set to not 'None', this option will overplot the subsample of photometry.<br/>
