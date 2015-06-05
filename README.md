@@ -99,18 +99,18 @@ Call signature: plot_cmds2(F275W, F336W, F438W, F606W, F814W)
 where the inputs are 1-D arrays of magnitudes loaded from a photometry file, typically loaded in a separate line as, e.g.: res=F275W, F336W, F438W, F606W, F814W = loadtxt('Cluster.cleaned.phot',skiprows=1,usecols=(1,2,3,4,5),unpack=True).
 
 Optional keyword arguments:<br/>
-    =========   =======================================================<br/>
-    Keyword     Description<br/>
-    =========   =======================================================<br/>
-    Inputs:<br/>
-    f275:        1-D array of magnitudes<br/>
-    f336:        1-D array of magnitudes<br/>
-    f438:        1-D array of magnitudes<br/>
-    f606:        1-D array of magnitudes<br/>
-    f814:        1-D array of magnitudes<br/>
-    modelA:      5-D array, each of five dimensions defining an isochrone in one of the five filters<br/>
-    modelB:      same as modelA for a second model (can set modelB=modelA to plot only one population if desired)<br/>
-    selectphot:  a 5-D array formatted as [sub275,subf336,subf438,subf606,subf814]; if set to not 'None', this option will overplot the subsample of photometry.<br/>
+&nbsp; &nbsp; &nbsp;=========&nbsp; &nbsp; &nbsp;=======================================================<br/>
+&nbsp; &nbsp; &nbsp;Keyword&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Description<br/>
+&nbsp; &nbsp; &nbsp;=========&nbsp; &nbsp; &nbsp;=======================================================<br/>
+&nbsp; &nbsp; &nbsp;Inputs:<br/>
+&nbsp; &nbsp; &nbsp;f275:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;1-D array of magnitudes<br/>
+&nbsp; &nbsp; &nbsp;f336:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;1-D array of magnitudes<br/>
+&nbsp; &nbsp; &nbsp;f438:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;1-D array of magnitudes<br/>
+&nbsp; &nbsp; &nbsp;f606:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;1-D array of magnitudes<br/>
+&nbsp; &nbsp; &nbsp;f814:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;1-D array of magnitudes<br/>
+&nbsp; &nbsp; &nbsp;modelA:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;5-D array, each of five dimensions defining an isochrone in one of the five filters<br/>
+&nbsp; &nbsp; &nbsp;modelB:&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;same as modelA for a second model (can set modelB=modelA to plot only one population if desired)<br/>
+&nbsp; &nbsp; &nbsp;selectphot:  a 5-D array formatted as [sub275,subf336,subf438,subf606,subf814]; if set to not 'None', this option will overplot the subsample of photometry.<br/>
     
 
 Additional options for plotting colors, sizes, formats, etc. can be found in pyplot.plot() and related descriptions. Colors may take any standard HTML string descriptor (re: http://www.w3schools.com/html/html_colornames.asp).
