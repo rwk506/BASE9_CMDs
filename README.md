@@ -90,7 +90,7 @@ or shown on screen:
 <a name="Doc"/>
 <h4>Documentation</h4>
 
-<b>plot_cmds2()</b>
+<i>plot_cmds2()</i>
 
 This is a function that will take a single population output results file and plot the sampling history and resulting PDFs of the following, assuming that the results file is formatted as a matrix with columns of age, metallicity, distance, extinction, and helium. 
 
