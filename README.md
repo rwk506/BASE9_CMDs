@@ -6,6 +6,7 @@ BASE9_CMDs
 <br />
 
 <h4>Table of Contents</h4>
+
 [Summary](#Summary)<br />
 [Downloading and Installation](#Install)<br />
 [Example of Use](#Use)<br />
@@ -89,7 +90,7 @@ or shown on screen:
 <a name="Doc"/>
 <h4>Documentation</h4>
 
-#####plot_cmds2()#####
+<b>plot_cmds2()</b>
 
 This is a function that will take a single population output results file and plot the sampling history and resulting PDFs of the following, assuming that the results file is formatted as a matrix with columns of age, metallicity, distance, extinction, and helium. 
 
